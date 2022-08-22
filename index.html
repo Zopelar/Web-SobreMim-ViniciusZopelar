@@ -5,17 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Vinícius Zopelar</title>
-    <h1>Sobre Mim - Vinícius Zopelar</h1>
+    <div class="box1"><h1>Sobre Mim - Vinícius Zopelar</h1></div>
     <link rel="icon" type="image/png" href="https://nobugs.com.br/wp-content/uploads/2020/01/cropped-banned_nb-32x32.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="/midia/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="midia/favicon.ico" />
+    <style>
+        .fotopraia{
+            border: 15px solid black ;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .texto{
+            font-size: larger;
+            margin-left: 2px;
+        }
+        body{
+            background-color: gray;
+        }
+        .curiosidades{
+            font-size: larger;
+
+        }
+        .box1{
+            height: 75px;
+            border: 15px solid black;
+            padding: 50px;
+            margin: 20px;
+            background-color: aliceblue;
+        }
+        .box2{
+            height: 175px;
+            border: 15px solid black;
+            padding: 10px;
+            margin: 20px;
+            background-color: aliceblue;
+        }
+
+
+    </style>
 
 </head>
 <body>
-    <p class="apresentacao"> Meu nome é Vinícius Zopelar Gonçalves, mas meus amigos me chamam de Zopelar ou Zops. Eu tenho 18 anos e sou de Caratinga MG,</p><br>
-    <img src="" alt="">
+    <img class="fotopraia" src="./midia/fotopraia.jpeg" alt="foto na praia" height="300" align="left">
+    <div class="box1"><p class="texto"> &nbsp &nbsp &nbsp Olá, seja bem-vindo! Meu nome é Vinícius Zopelar Gonçalves, mas meus amigos me chamam de Zopelar ou Zops. Tenho 18 anos e sou de Caratinga MG. 
+         Estudante do curso de &nbspCiência da Computação da UFV, no qual ingressei no período 2022.1.
 
+    </p></div> <br><br><br><br><br><br>
+    
 
-    <p class="curiosidades titulo">Curiosidades</p>
+    <div class="box2">
+    <p class="curiosidades">Curiosidades:</p>
     <p>
         Aqui estão algumas curiosidades sobre mim, escolha um assunto:
     </p>
@@ -36,6 +74,6 @@
                     .then(html =>conteudo.innerHTML = html)
             }
         });
-    </script>
+    </script></div>
 </body>
 </html>
